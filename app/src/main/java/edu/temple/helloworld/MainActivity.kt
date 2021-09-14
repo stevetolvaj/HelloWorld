@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        findViewById<Button>(R.id.button).setOnClickListener { v, ->
+        findViewById<Button>(R.id.button).setOnClickListener { v ->
             (v as Button).text = getString(R.string.clicked_button)
         }
 
